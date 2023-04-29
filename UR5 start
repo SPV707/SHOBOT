@@ -1,0 +1,7 @@
+1)roslaunch ur_calibration calibration_correction.launch robot_ip:=192.168.0.100 target_filename:="$(rospack find ur_calibration)/etc/ex-ur5_calibration.yaml"-Only first time
+
+
+
+2)roslaunch ur_robot_driver ur5_bringup.launch robot_ip:=192.168.0.100 [reverse_port:=REVERSE_PORT] kinematics_config:=$(rospack find ur_calibration)/etc/ex-ur5_calibration.yaml
+3)roslaunch ur_shobot_moveit_config ur_shobot_moveit_planning_execution.launch
+4)roslaunch ur_shobot_moveit_config moveit_rviz.launch rviz_config:=$(rospack find ur_shobot_moveit_config)/launch/moveit.rviz
