@@ -1,0 +1,25 @@
+footprint: [[-0.5, -0.35], [-0.5, 0.35], [0.5, 0.35], [0.5, -0.35]]
+#default footprint: [[-0.5, -0.33], [-0.5, 0.33], [0.5, 0.33], [0.5, -0.33]]
+footprint_padding: 0.01
+
+robot_base_frame: base_link
+update_frequency: 4.0
+publish_frequency: 3.0
+transform_tolerance: 0.5
+
+resolution: 0.05
+
+obstacle_range: 5.5
+raytrace_range: 6.0
+
+#layer definitions
+static:
+    map_topic: /map
+    subscribe_to_updates: true
+
+observation_sources: d435 ouster
+d435: {data_type: PointCloud2, topic: /camera/depth/color/points, marking: true, clearing: true, expected_update_rate: 3.3}
+ouster: {data_type: PointCloud2, topic: //os1_cloud_node/points, marking: true, clearing: true, expected_update_rate: 3.3}
+
+inflation:
+    inflation_radius: 0.1

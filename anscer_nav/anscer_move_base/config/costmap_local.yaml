@@ -1,0 +1,6 @@
+global_frame: odom
+rolling_window: true
+
+plugins:
+  - {name: observation_sources,           type: "costmap_2d::ObstacleLayer"}
+  - {name: inflation,                 type: "costmap_2d::InflationLayer"}
