@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="Vaccume" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find Vaccume_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find Vaccume_description)/urdf/Vaccume.trans" />
+<xacro:include filename="$(find Vaccume_description)/urdf/Vaccume.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="-0.0009694091187008012 -0.06077237045730904 0.06399399522278051" rpy="0 0 0"/>
+    <mass value="8.457717281604213"/>
+    <inertia ixx="0.047172" iyy="0.016022" izz="0.047169" ixy="8e-05" iyz="-9.3e-05" ixz="-0.000141"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Vaccume_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://Vaccume_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+</robot>
