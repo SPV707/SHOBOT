@@ -1,0 +1,10 @@
+<launch>
+  <!-- Launch realsense2_camera node with ordered_pc parameter set to true -->
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+    <arg name="ordered_pc" value="true" />
+  </include>
+
+  <!-- Launch dodo_detector_ros node -->
+  <include file="$(find dodo_detector_ros)/launch/detect_depthcam.launch" />
+</launch>
+
