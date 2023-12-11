@@ -1,0 +1,125 @@
+item {
+  name: "/m/01g317"
+  id: 1
+  display_name: "beans"
+}
+item {
+  name: "/m/0199g"
+  id: 2
+  display_name: "cake"
+}
+item {
+  name: "/m/0k4j"
+  id: 3
+  display_name: "candy"
+}
+item {
+  name: "/m/04_sv"
+  id: 4
+  display_name: "cereal"
+}
+item {
+  name: "/m/05czz6l"
+  id: 5
+  display_name: "chips"
+}
+item {
+  name: "/m/01bjv"
+  id: 6
+  display_name: "chocolate"
+}
+item {
+  name: "/m/07jdr"
+  id: 7
+  display_name: "coffee"
+}
+item {
+  name: "/m/07r04"
+  id: 8
+  display_name: "corn"
+}
+item {
+  name: "/m/019jd"
+  id: 9
+  display_name: "fish"
+}
+item {
+  name: "/m/015qff"
+  id: 10
+  display_name: "flour"
+}
+item {
+  name: "/m/01pns0"
+  id: 11
+  display_name: "honey"
+}
+item {
+  name: "/m/02pv19"
+  id: 12
+  display_name: "jam"
+}
+item {
+  name: "/m/015qbp"
+  id: 13
+  display_name: "juice"
+}
+item {
+  name: "/m/0cvnqh"
+  id: 14
+  display_name: "milk"
+}
+item {
+  name: "/m/015p6"
+  id: 15
+  display_name: "nuts"
+}
+item {
+  name: "/m/01yrx"
+  id: 16
+  display_name: "oil"
+}
+item {
+  name: "/m/0bt9lr"
+  id: 17
+  display_name: "pasta"
+}
+item {
+  name: "/m/03k3r"
+  id: 18
+  display_name: "rice"
+}
+item {
+  name: "/m/07bgp"
+  id: 19
+  display_name: "soda"
+}
+item {
+  name: "/m/01xq0k1"
+  id: 20
+  display_name: "spices"
+}
+item {
+  name: "/m/0bwd_0j"
+  id: 21
+  display_name: "sugar"
+}
+item {
+  name: "/m/01dws"
+  id: 22
+  display_name: "tea"
+}
+item {
+  name: "/m/0898b"
+  id: 23
+  display_name: "tomato_sauce"
+}
+item {
+  name: "/m/03bk1"
+  id: 24
+  display_name: "vinegar"
+}
+item {
+  name: "/m/01940j"
+  id: 25
+  display_name: "water"
+}
